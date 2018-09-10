@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a98e9fc0-8784-48c3-a17f-e191265651ad" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/NativeScriptDev.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/tsconfig_roots.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/angular.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/AndroidManifest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-hdpi/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-hdpi/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-hdpi/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-ldpi/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-ldpi/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-ldpi/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-mdpi/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-mdpi/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-mdpi/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-nodpi/splash_screen.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xhdpi/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xhdpi/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xhdpi/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xxhdpi/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xxhdpi/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xxhdpi/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xxxhdpi/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xxxhdpi/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/drawable-xxxhdpi/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/values-v21/colors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/values-v21/styles.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/values/colors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/Android/values/styles.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-1024.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-1125h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-736h@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-X.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchImage.launchimage/Default@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.AspectFill.imageset/LaunchScreen-AspectFill@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Assets.xcassets/LaunchScreen.Center.imageset/LaunchScreen-Center@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/LaunchScreen.storyboard" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/App_Resources/iOS/build.xcconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/app-routing.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.module.ngfactory.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/home/home.component.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/home/home.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/home/home.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/main.aot.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsconfig.esm.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1909" />
+    <option name="y" value="113" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NativeScriptDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScriptDev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScriptDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScriptDev" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a98e9fc0-8784-48c3-a17f-e191265651ad" name="Default" comment="" />
+      <created>1536572694411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536572694411</updated>
+      <workItem from="1536572705276" duration="4599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4599000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2409" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.188789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.299886" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/home/home.component.js" />
+        <option value="$PROJECT_DIR$/app/main.js" />
+        <option value="$PROJECT_DIR$/app/app.module.js" />
+        <option value="$PROJECT_DIR$/app/main.aot.js" />
+        <option value="$PROJECT_DIR$/app/app.component.js" />
+        <option value="$PROJECT_DIR$/app/app-routing.module.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/menu/menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/menu/menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/menu/menu.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
