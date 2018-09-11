@@ -3,7 +3,12 @@ import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import {HomeComponent} from "~/pages/home/home.component";
+import {NativeScriptFormsModule} from "nativescript-angular";
+import { Page1Component } from './pages/page1/page1.component';
+import { Page2Component } from './pages/page2/page2.component';
+import { Page3Component } from './pages/page3/page3.component';
+import {NativeScriptUISideDrawerModule} from "nativescript-ui-sidedrawer/angular";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -15,10 +20,15 @@ import { HomeComponent } from './home/home.component';
   declarations: [
       AppComponent,
       HomeComponent,
+      Page1Component,
+      Page2Component,
+      Page3Component,
   ],
   imports: [
-      NativeScriptModule,
       AppRoutingModule,
+      NativeScriptModule,
+      NativeScriptFormsModule,
+      NativeScriptUISideDrawerModule,
   ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],

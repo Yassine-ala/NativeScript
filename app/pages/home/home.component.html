@@ -1,0 +1,17 @@
+<ActionBar title="Home" class="action-bar">
+  <ActionItem>
+    <StackLayout>
+      <Button class="fa" text="&#xf0c9;" fontSize="20" (tap)="onDrawerButtonTap()"></Button>
+    </StackLayout>
+  </ActionItem>
+</ActionBar>
+
+<StackLayout margin-top="20%">
+  <Label text="Global Redirection" class="h1 text-center"></Label>
+  <Button text="tap for help" (tap)="showHelp()" class="btn btn-primary btn-active"></Button>
+  <Label *ngIf="showMsg" [text]="helpMsg" class="h2 text-center" textWrap="true"></Label>
+
+  <Button text="P1" [nsRouterLink]="['/page1']" class="btn btn-outline btn-rounded-lg"></Button>
+  <Button text="P2" [nsRouterLink]="['/page2']" class="btn btn-outline btn-rounded-lg"></Button>
+  <Button text="P3" [nsRouterLink]="['/page3']" class="btn btn-outline btn-rounded-lg"></Button>
+</StackLayout>
