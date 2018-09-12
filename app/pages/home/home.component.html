@@ -1,13 +1,14 @@
-<ActionBar title="Home" class="action-bar">
+<ActionBar title="Home">
+  <NavigationButton class="fa" text="&#xf002;" (tap)="console.log('clicked')"></NavigationButton>
   <ActionItem>
     <StackLayout>
-      <Button class="fa" text="&#xf0c9;" fontSize="20" (tap)="onDrawerButtonTap()"></Button>
+      <label class="fa icon"  text="&#xf0c9;" (tap)="onDrawerButtonTap()"></label>
     </StackLayout>
   </ActionItem>
 </ActionBar>
 
-<StackLayout margin-top="20%">
-  <Label text="Global Redirection" class="h1 text-center"></Label>
+<StackLayout marginTop="15%">
+  <Label text="Global Redirection" class="h1 text-center" marginBottom="10%"></Label>
   <Button text="tap for help" (tap)="showHelp()" class="btn btn-primary btn-active"></Button>
   <Label *ngIf="showMsg" [text]="helpMsg" class="h2 text-center" textWrap="true"></Label>
 

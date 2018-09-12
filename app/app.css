@@ -65,3 +65,18 @@
 .sidedrawer .sidedrawer-content .sidedrawer-list-item.selected Label {
     color:#3A53FF;
 }
+
+ActionBar {
+    background-color: #1976D2;
+    color:white;
+    opacity: 1;
+}
+ActionBar .icon {
+    margin-right: 20;
+    font-size: 25;
+    vertical-align: center;
+}
+ListView .icon {
+    vertical-align: center;
+    font-size: 40;
+}

@@ -1,1 +1,34 @@
-<Button text="page1 works!" class="btn btn-primary"></Button>
+   <ActionBar title="Recherche de navires">
+            <NavigationButton android.systemIcon="ic_menu_back" (tap)="back()"></NavigationButton>
+        <ActionItem>
+            <StackLayout>
+                <label class="fa icon" text="&#xf002;" (tap)="showFilters = !showFilters"></label>
+            </StackLayout>
+        </ActionItem>
+    </ActionBar>
+
+<StackLayout height="100%" width="100%">
+
+    <StackLayout class="filterForm" *ngIf="showFilters">
+        <StackLayout horizontalAlignment="center">
+            <TextField [(ngModel)]="shipName" autocorrect="false" width="80%" hint="Nom du navire" class="input-border"></TextField>
+            <TextField [(ngModel)]="shipRegistration" autocorrect="false" width="80%" hint="Immatriculation du Navire"></TextField>
+        </StackLayout>
+
+        <Button text="Rechercher" class="btn btn-primary" width="120" height="40" (tap)="search()"></Button>
+    </StackLayout>
+
+    <ListView [items]="filteredlist" width="95%">
+        <ng-template let-item="item" let-i="index">
+            <StackLayout class="listStyle" orientation="horizontal">
+                <StackLayout>
+                    <Label class="title" [text]="item.toString().toUpperCase()"></Label>
+                    <Label class="subtitle" [text]="'Capitaine'"></Label>
+                    <Label class="subtitle" [text]="'Navire N°JKS'"></Label>
+                </StackLayout>
+                <Label class="fa icon" text="&#xf005;" marginLeft="50%" [ngStyle]="{'color': favlist[i] ? 'yellow' : 'black'}" (tap)="favlist[i]=!favlist[i]"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+
+</StackLayout>

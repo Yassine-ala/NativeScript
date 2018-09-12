@@ -1,0 +1,18 @@
+.title{
+    color:black;
+    font-size: 18;
+}
+.subtitle{
+    color:#AAAAAA;
+    font-size: 16;
+}
+.listStyle{
+    padding: 10;
+}
+.filterForm{
+    margin:10;
+    background-color: #00caab;
+    elevation: above;
+    border-width: 2;
+    border-color: black;
+}
