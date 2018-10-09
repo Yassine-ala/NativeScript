@@ -2,34 +2,35 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 import { AppRoutingModule } from './app-routing.module';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {HomeComponent} from "~/pages/home/home.component";
 import {NativeScriptFormsModule} from "nativescript-angular";
-import { Page1Component } from './pages/page1/page1.component';
-import { Page2Component } from './pages/page2/page2.component';
-import { Page3Component } from './pages/page3/page3.component';
+import {Page1Component} from './pages/page1/page1.component';
+import {CalendarComponent} from './pages/calendar/calendar.component';
+import {Page3Component} from './pages/page3/page3.component';
 import {NativeScriptUISideDrawerModule} from "nativescript-ui-sidedrawer/angular";
-
-// Uncomment and add to NgModule imports if you need to use two-way binding
-// import { NativeScriptFormsModule } from "nativescript-angular/forms";
-
-// Uncomment and add to NgModule imports  if you need to use the HTTP wrapper
-// import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
+import {NativeScriptUICalendarModule} from "nativescript-ui-calendar/angular";
+import {CalendarStylesService} from "~/services/calendar-styles.service";
+import {CalendarEventsService} from "~/services/calendar-events.service";
+import { LocalDataComponent } from './local-data/local-data.component';
 
 @NgModule({
   declarations: [
       AppComponent,
       HomeComponent,
       Page1Component,
-      Page2Component,
+      CalendarComponent,
       Page3Component,
+      LocalDataComponent,
   ],
   imports: [
       AppRoutingModule,
       NativeScriptModule,
       NativeScriptFormsModule,
       NativeScriptUISideDrawerModule,
+      NativeScriptUICalendarModule
   ],
+  providers: [ CalendarStylesService, CalendarEventsService ],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA],
 })

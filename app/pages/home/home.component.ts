@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
         // Init your component properties here.
     }
 
-    onDrawerButtonTap(): void {
+    openDrawer(): void {
         const sideDrawer = <RadSideDrawer>app.getRootView();
         sideDrawer.showDrawer();
     }

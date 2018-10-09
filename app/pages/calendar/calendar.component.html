@@ -1,0 +1,15 @@
+<StackLayout backgroundColor="#87cefa">
+
+    <StackLayout width="90%" height="70%" marginTop="20">
+        <StackLayout horizontalAlignment="center" orientation="horizontal" backgroundColor="white" width="100%">
+            <button class="btn btn-active btn-primary fa" text="&#xf053;" (tap)="prevMonth()" margin="5" width="20%"></button>
+            <Label class="monthTitle" [text]="this.yearMonths[this.monthIndex] + ' ' + this.yearIndex"></Label>
+            <button class="btn btn-active btn-primary fa" text="&#xf054;" (tap)="nextMonth()" margin="5" width="20%"></button>
+        </StackLayout>
+
+        <RadCalendar #myCalendar locale="fr-FR" [monthViewStyle]="monthViewStyle" viewMode="Month" [minDate]="minDate"
+                     dayNameFormat="short" (loaded)="onCalendarLoaded($event)"
+                     [maxDate]="maxDate" [eventSource]="events" (dateSelected)="onDateSelected($event)"></RadCalendar>
+    </StackLayout>
+
+</StackLayout>

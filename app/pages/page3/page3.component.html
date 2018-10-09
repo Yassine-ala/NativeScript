@@ -1,1 +1,8 @@
-<Button text="page3 works!" class="btn btn-primary"></Button>
+<TabView id="tabViewContainer" androidOffscreenTabLimit="0">
+        <StackLayout *tabItem="{title: 'Gérer'}">
+            <Label text="First Tab" textWrap="true" class="m-15 h2 text-left" color="blue"></Label>
+        </StackLayout>
+        <StackLayout *tabItem="{title: 'Gérer'}">
+            <Label text="Second Tab" textWrap="true" class="m-15 h2 text-left" color="blue"></Label>
+        </StackLayout>
+</TabView>

@@ -1,8 +1,8 @@
 <ActionBar title="Home">
-  <NavigationButton class="fa" text="&#xf002;" (tap)="console.log('clicked')"></NavigationButton>
+  <NavigationButton class="fa" text="&#xf002;"></NavigationButton>
   <ActionItem>
     <StackLayout>
-      <label class="fa icon"  text="&#xf0c9;" (tap)="onDrawerButtonTap()"></label>
+      <label class="fa icon"  text="&#xf0c9;" (tap)="openDrawer()"></label>
     </StackLayout>
   </ActionItem>
 </ActionBar>
@@ -13,6 +13,6 @@
   <Label *ngIf="showMsg" [text]="helpMsg" class="h2 text-center" textWrap="true"></Label>
 
   <Button text="P1" [nsRouterLink]="['/page1']" class="btn btn-outline btn-rounded-lg"></Button>
-  <Button text="P2" [nsRouterLink]="['/page2']" class="btn btn-outline btn-rounded-lg"></Button>
+  <Button text="Calendar" [nsRouterLink]="['/calendar']" class="btn btn-outline btn-rounded-lg"></Button>
   <Button text="P3" [nsRouterLink]="['/page3']" class="btn btn-outline btn-rounded-lg"></Button>
 </StackLayout>
